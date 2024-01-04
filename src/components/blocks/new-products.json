@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_new_products",
+  "info": {
+    "displayName": "NewProducts",
+    "icon": "layer"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "products": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product"
+    }
+  }
+}

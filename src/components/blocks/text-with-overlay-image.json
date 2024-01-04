@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_blocks_text_with_overlay_images",
+  "info": {
+    "displayName": "TextWithOverlayImage",
+    "icon": "layout"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "SubTitle": {
+      "type": "string"
+    },
+    "OverLineText": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    },
+    "ButtonName": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

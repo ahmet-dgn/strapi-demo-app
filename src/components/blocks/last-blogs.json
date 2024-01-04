@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_last_blogs",
+  "info": {
+    "displayName": "LastBlogs",
+    "icon": "underline"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

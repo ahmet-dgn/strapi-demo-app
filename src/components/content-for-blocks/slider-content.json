@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_content_for_blocks_slider_contents",
+  "info": {
+    "displayName": "SliderContent",
+    "icon": "landscape"
+  },
+  "options": {},
+  "attributes": {
+    "OverLineText": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Link": {
+      "type": "string"
+    },
+    "ButtonName": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
